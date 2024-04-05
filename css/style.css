@@ -239,6 +239,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 48px 0;
+    height: 94vh;
 }
 
 .projects-content {
@@ -250,7 +251,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
-    height: 84vh;
+    
 }
 
 .projects-item:hover {
@@ -262,6 +263,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px 0;
+    height: 6vh;
 }
 
 .footer-content {
@@ -449,6 +451,7 @@ footer {
     transition: all 1s;
     transform: translatex(-100%);
     filter: blur(10px);
+    border-radius: 50%;
 }
 .show {
     opacity: 1;
@@ -476,6 +479,7 @@ html {
 .section3{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .scroll{
     scroll-snap-align: start;
